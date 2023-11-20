@@ -1,0 +1,86 @@
+[
+  {
+    "title": "DOM",
+    "definition": "The Document Object Model (DOM) is an interface for interacting with web documents. It provides a hierarchical tree-like structure of objects that represent the elements and content of a web page, including HTML. Developers use JavaScript to interact with and manipulate these objects, enabling dynamic control and modification of web content."
+  },
+  {
+    "title": "Client",
+    "definition": "Typically, client in web development refers to the software or web browser used to access a website or web app, such as Google Chrome. These make requests to servers to get certain data or resources."
+  },
+  {
+    "title": "Server",
+    "definition": "A server is a way of storing or managing data and other resources through a physical computer (hardware) or service (software). Clients, most often web browsers, can make fetch and other requests to the server to get the appropriate resources needed. Software includes virtual, cloud-based, or database servers."
+  },
+  {
+    "title": "Client-side/ Server-side",
+    "definition": "'Client-side' refers to the underlying code and processes, such as HTML, CSS, and JS, that create the visual and dynamic experience for a user. 'Server-side' in the same way means the underlying code and processes, such as Django, which run on the server. These respond to client requests."
+  },
+  {
+    "title": "Frontend",
+    "definition": "A general term for the part of a web application that a user interacts with. A visual representation of a website such as images, buttons, navigation that make up the design and functionality."
+  },
+  {
+    "title": "Backend",
+    "definition": "The backend refers to the entire server-side aspect of a web application that the user does not directly interact with. Including the code that handles client requests, the database, security, API's, and more."
+  },
+  {
+    "title": "Angle bracket uses",
+    "definition": "These are used to define and enclose HTML tags, an essential feature for web development. Also, in JS they can be used as comparison operators, for instance greater than or less than."
+  },
+  {
+    "title": "CPU",
+    "definition": "The primary component of a computer. It executes tasks by processing instructions from computer programs. Often referred to as the 'brain', it handles data, runs software, and responds to requests made by the user."
+  },
+  {
+    "title": "API",
+    "definition": "An API, conceptually, is a set of rules and protocols that define the methods and data formats required for applications to request and exchange information. For example, a web API uses the HTTP protocol to specify methods like 'POST' and 'GET' and often utilizes data formats like JSON to transfer data between clients and servers."
+  },
+  {
+    "title": "CDN",
+    "definition": "A Content Delivery Network (CDN) is a network of distributed servers located around the world. It caches and serves copies of data, including images and other content, from the origin server to various geographic locations."
+  },
+  {
+    "title": "XSS",
+    "definition": "Cross-Site Scripting (XSS) is a type of security vulnerability in web applications where attackers attempt to inject malicious code, often in the form of JavaScript, into the application."
+  },
+  {
+    "title": "CMS",
+    "definition": "A CMS, or content management system, is a software application that can be run either locally or online, used for creating, managing, and publishing digital content to the internet."
+  },
+  {
+    "title": "GUI",
+    "definition": "A GUI, or graphical user interface, employs visual elements like buttons, icons, and menus to provide a user-friendly and intuitive way to navigate and interact with software or devices."
+  },
+  {
+    "title": "JSON",
+    "definition": "JavaScript Object Notation is a user-friendly data format used in software development. It consists of key-value pairs and is commonly used for data exchange between servers and clients."
+  },
+  {
+    "title": "FTP",
+    "definition": "FTP, or File Transfer Protocol, is a set of rules for how files should be shared over a network between client and server. It defines how users upload, download, and manage files on remote servers."
+  },
+  {
+    "title": "SFTP",
+    "definition": "SFTP, or Secure File Transfer Protocol, is a network protocol like FTP, but more secure. It encrypts and authenticates data to protect it during transit using SSH keys."
+  },
+  {
+    "title": "MVC",
+    "definition": "MVC is a software design pattern, often used in web development, that separates an application into three components: Model, View, and Controller."
+  },
+  {
+    "title": "PWA",
+    "definition": "A Progressive Web Application uses HTML, CSS, and JS to create user-friendly experiences that mimic native apps through a web browser."
+  },
+  {
+    "title": "SDK",
+    "definition": "A Software Development Kit contains tools for developers to use when building an application, which simplify or expedite the process."
+  },
+  {
+    "title": "SEO",
+    "definition": "Search Engine Optimization encompasses a range of strategies and methods aimed at enhancing organic website traffic."
+  },
+  {
+    "title": "URL",
+    "definition": "A Uniform Resource Locator is an address of a resource on the Internet, typically built up of a protocol, domain, and paths or parameters."
+  }
+]
