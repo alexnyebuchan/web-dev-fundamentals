@@ -28,7 +28,7 @@ button {
   cursor: pointer;
   outline: inherit;
   background-color: rgba(255, 255, 255, 0.7);
-  transition: 0.1s ease-in-out background-color;
+  transition: 0.1s ease-in-out background-color, 0.1s ease-in-out transform;
   display: flex;
   align-items: center;
   img {
@@ -39,6 +39,10 @@ button {
 
 button:hover {
   background-color: rgba(255, 255, 255, 0.9);
+}
+
+button:active {
+  transform: scale(0.99);
 }
 
 .menu-item {
