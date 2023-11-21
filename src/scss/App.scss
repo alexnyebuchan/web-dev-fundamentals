@@ -7,7 +7,7 @@
 body {
   font-family: 'Arial', sans-serif;
   line-height: 1.8;
-  background-color: floralwhite;
+  font-size: 22px;
   min-height: 100vh;
 }
 
@@ -20,7 +20,6 @@ nav {
 }
 
 button {
-  background: none;
   color: inherit;
   border: none;
   padding: 15px;
@@ -28,6 +27,11 @@ button {
   cursor: pointer;
   outline: inherit;
   background-color: rgba(255, 255, 255, 0.7);
+  transition: 0.1s ease-in-out background-color;
+}
+
+button:hover {
+  background-color: rgba(255, 255, 255, 0.9);
 }
 
 .menu-item {
@@ -46,4 +50,24 @@ main {
 .card-container {
   background-color: rgba(255, 255, 255, 0.7);
   padding: 20px;
+  transition: 0.1s ease-in-out background-color;
+}
+
+.card-container:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 21px;
+  }
+
+  .menu-item {
+    width: 100%;
+  }
+
+  main {
+    padding: 120px 40px;
+    display: flex;
+  }
 }

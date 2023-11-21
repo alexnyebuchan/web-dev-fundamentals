@@ -3,7 +3,7 @@ import terms from '../../terms.json';
 
 const Main = () => {
   const [randomTermIndex, setRandomTermIndex] = useState(null);
-  const [backgroundColor, setBackgroundColor] = useState('');
+  const [previousIndex, setPreviousIndex] = useState(null);
 
   const hexNumbers = [
     '0',
@@ -29,9 +29,14 @@ const Main = () => {
   }, []);
 
   const changeTerm = () => {
-    const newTermIndex = Math.floor(Math.random() * terms.length);
+    let newTermIndex = randomTermIndex;
+    while (newTermIndex === randomTermIndex) {
+      newTermIndex = Math.floor(Math.random() * terms.length);
+    }
+    setPreviousIndex(randomTermIndex);
     setRandomTermIndex(newTermIndex);
     changeBackground();
+    console.log(randomTermIndex);
   };
 
   const changeBackground = () => {
