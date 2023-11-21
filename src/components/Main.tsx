@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import terms from '../../terms.json';
+import Footer from './Footer';
+import Icon from '../assets/icons/dice.svg';
 
 const Main = () => {
   const [randomTermIndex, setRandomTermIndex] = useState(null);
@@ -54,7 +56,10 @@ const Main = () => {
     <div>
       <nav>
         <div className="menu-item">
-          <button onClick={changeTerm}>Random Term</button>
+          <button onClick={changeTerm}>
+            <img src={Icon} alt="Icon" />
+            <p>Random Term</p>
+          </button>
         </div>
       </nav>
       <main>
@@ -67,6 +72,7 @@ const Main = () => {
           )}
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
