@@ -4,10 +4,10 @@ import Footer from './Footer';
 import Icon from '../assets/icons/dice.svg';
 
 const Main = () => {
-  const [randomTermIndex, setRandomTermIndex] = useState(0);
-  const [previousIndex, setPreviousIndex] = useState(0);
+  const [randomTermIndex, setRandomTermIndex] = useState<number>(0);
+  const [previousIndex, setPreviousIndex] = useState<number>(0);
 
-  const hexNumbers = [
+  const hexNumbers: string[] = [
     '0',
     '1',
     '2',
@@ -31,8 +31,7 @@ const Main = () => {
   }, []);
 
   const changeTerm = () => {
-    const newTermIndex = Math.floor(Math.random() * terms.length);
-    console.log(previousIndex, newTermIndex);
+    const newTermIndex: number = Math.floor(Math.random() * terms.length);
     if (previousIndex === newTermIndex) {
       changeTerm();
     } else {
@@ -44,8 +43,8 @@ const Main = () => {
   };
 
   const changeBackground = () => {
-    let hex1 = '#';
-    let hex2 = '#';
+    let hex1: string = '#';
+    let hex2: string = '#';
 
     for (let i = 0; i < 6; i++) {
       hex1 += hexNumbers[Math.floor(Math.random() * hexNumbers.length)];
