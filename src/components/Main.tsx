@@ -1,9 +1,13 @@
-import { useState, useEffect } from 'react';
-import terms from '../../terms.json';
-import Footer from './Footer';
-import Icon from '../assets/icons/dice.svg';
+import { useState, useEffect, FC } from "react";
+import Footer from "./Footer";
+import { Term } from "../types/term";
+import Icon from "../assets/icons/dice.svg";
 
-const Main = () => {
+interface MainProps {
+  terms: Term[];
+}
+
+const Main: FC<MainProps> = ({ terms }) => {
   const [randomTermIndex, setRandomTermIndex] = useState(0);
   const [previousIndex, setPreviousIndex] = useState(0);
 
