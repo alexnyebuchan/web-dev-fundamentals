@@ -82,5 +82,13 @@
   {
     "title": "URL",
     "definition": "A Uniform Resource Locator is an address of a resource on the Internet, typically built up of a protocol, domain, and paths or parameters."
+  },
+  {
+    "title": "AJAX",
+    "definition": "Asynchronous JavaScript and XML (AJAX) is a set of web development techniques used to update specific content on a webpage without requiring a full page reload. It facilitates asynchronous communication between the client (web browser) and server, enabling data to be sent, processed, and retrieved asynchronously. This enables webpages to become more dynamic and responsive by fetching or sending data in the background without interrupting the user's interaction. While XML is referenced in the name, modern implementations of AJAX commonly use other data formats such as JSON (JavaScript Object Notation) for data exchange due to its lightweight and easy-to-parse nature."
+  },
+  {
+    "title": "IDE",
+    "definition": "An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. It typically includes a code editor, debugger, build automation tools, and often features for version control, syntax highlighting, and code completion. IDEs aim to streamline the software development process by consolidating various tools and features into a single user interface, enhancing productivity and efficiency for developers."
   }
 ]
