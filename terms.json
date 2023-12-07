@@ -5,23 +5,23 @@
   },
   {
     "title": "Client",
-    "definition": "Typically, client in web development refers to the software or web browser used to access a website or web app, such as Google Chrome. These make requests to servers to get certain data or resources."
+    "definition": "Typically, client in web development refers to the software, or web browser used to access a website or web app such as Google chrome. These make requests to servers to get certain data or resourses. "
   },
   {
     "title": "Server",
-    "definition": "A server is a way of storing or managing data and other resources through a physical computer (hardware) or service (software). Clients, most often web browsers, can make fetch and other requests to the server to get the appropriate resources needed. Software includes virtual, cloud-based, or database servers."
+    "definition": "A server is a way of storing or managing data and other resourses through a physical computer (hardware) or service (software). Clients, most often web broswers, can make fetch and other requests to the server to get the appropriate resourses needed. Software includes virtual, cloud based or database servers."
   },
   {
     "title": "Client-side/ Server-side",
-    "definition": "'Client-side' refers to the underlying code and processes, such as HTML, CSS, and JS, that create the visual and dynamic experience for a user. 'Server-side' in the same way means the underlying code and processes, such as Django, which run on the server. These respond to client requests."
+    "definition": "'Client-side' refers to the underlying code and processes, such as HTML, CSS and JS, that create the visual and dynamic experience for a user. 'Server-side' in the same way means the underlying code and processes, such as Django, which run on the server. These respond to client requests. "
   },
   {
     "title": "Frontend",
-    "definition": "A general term for the part of a web application that a user interacts with. A visual representation of a website such as images, buttons, navigation that make up the design and functionality."
+    "definition": "A general term for the part of a web application that a user ineracts with. A visual representation of a website such as images, buttons, navigation that make up the design and functionality."
   },
   {
     "title": "Backend",
-    "definition": "The backend refers to the entire server-side aspect of a web application that the user does not directly interact with. Including the code that handles client requests, the database, security, API's, and more."
+    "definition": "The backend refers to the entire server-side aspect of a web application that the user does not directly interact with. Including the code that handles client requests, the database, security, API's and more. "
   },
   {
     "title": "Angle bracket uses",
@@ -29,7 +29,7 @@
   },
   {
     "title": "CPU",
-    "definition": "The primary component of a computer. It executes tasks by processing instructions from computer programs. Often referred to as the 'brain', it handles data, runs software, and responds to requests made by the user."
+    "definition": "The primary component of a computer. It executes tasks by processing instructions from computer programs. Often referred to as the 'brain', it handles data, runs software and responds to requests made by the user."
   },
   {
     "title": "API",
@@ -37,27 +37,27 @@
   },
   {
     "title": "CDN",
-    "definition": "A Content Delivery Network (CDN) is a network of distributed servers located around the world. It caches and serves copies of data, including images and other content, from the origin server to various geographic locations."
+    "definition": "A Content Delivery Network (CDN) is a network of distributed servers located around the world. It caches and serves copies of data, including images and other content, from the origin server to various geographic locations. When a client requests this data, the CDN automatically delivers it from the edge server closest to the client, improving efficiency and reducing load times."
   },
   {
     "title": "XSS",
-    "definition": "Cross-Site Scripting (XSS) is a type of security vulnerability in web applications where attackers attempt to inject malicious code, often in the form of JavaScript, into the application."
+    "definition": "Cross-Site Scripting (XSS) is a type of security vulnerability in web applications where attackers attempt to inject malicious code, often in the form of JavaScript, into the application. If the application fails to properly sanitize or validate user inputs, these injected scripts can execute in the browsers of other users accessing the affected page. This can lead to various malicious actions such as redirecting users to harmful websites, stealing sensitive information like session cookies, or performing unauthorized actions on behalf of the user. "
   },
   {
     "title": "CMS",
-    "definition": "A CMS, or content management system, is a software application that can be run either locally or online, used for creating, managing, and publishing digital content to the internet."
+    "definition": "A CMS, or content management system, is a software application that can be run either locally or online, used for creating, managing, and publishing digital content to the internet. It simplifies the process of web development, making it a preferred choice those with technical expertise. CMSs support various content types, including text, images, videos, and documents. Popular CMS examples include WordPress and Squarespace. "
   },
   {
     "title": "GUI",
-    "definition": "A GUI, or graphical user interface, employs visual elements like buttons, icons, and menus to provide a user-friendly and intuitive way to navigate and interact with software or devices."
+    "definition": "A GUI, or graphical user interface, employs visual elements like buttons, icons, and menus to provide a user-friendly and intuitive way to navigate and interact with software or devices. Examples of GUIs include ATM screens, Google Chrome, and Windows. In contrast, a CLI (command-line interface) relies on text-based commands, as seen in tools like Git Bash."
   },
   {
     "title": "JSON",
-    "definition": "JavaScript Object Notation is a user-friendly data format used in software development. It consists of key-value pairs and is commonly used for data exchange between servers and clients."
+    "definition": "JavaScript Object Notation is a user-friendly data format used in software development. It's easy for both humans to read and write and for machines to parse or generate. JSON consists of key-value pairs and is commonly used for data exchange between servers and clients, often converted into a programming language like JavaScript, using a function like response.JSON()."
   },
   {
     "title": "FTP",
-    "definition": "FTP, or File Transfer Protocol, is a set of rules for how files should be shared over a network between client and server. It defines how users upload, download, and manage files on remote servers."
+    "definition": "FTP, or File Transfer Protocol, is a set of rules  for how files should be shared over a network between client and server. It defines how users upload, download and manage files on remote servers. FTP has been replaced often by other protocols such as SFTP or FTPS, as the data is not encrypted and therefore less secure. However, where security is less of an issue, FTP is still used - for instance in legacy systems. "
   },
   {
     "title": "SFTP",
@@ -65,30 +65,47 @@
   },
   {
     "title": "MVC",
-    "definition": "MVC is a software design pattern, often used in web development, that separates an application into three components: Model, View, and Controller."
+    "definition": "MVC is a software design pattern, often used in web development, that seperates an application into three components. The Model retrieves and handles data, the View presents the data to the user and the Controller recieves the input and processes it. MVT uses templates instead."
   },
   {
     "title": "PWA",
-    "definition": "A Progressive Web Application uses HTML, CSS, and JS to create user-friendly experiences that mimic native apps through a web browser."
+    "definition": "A Progressive Web Application uses HTML, CSS and JS to create user friendly experiences that mimic native apps througha a web browser. These can be downloaded and added to a home screen, or accessed through a browser such as Google Chrome. "
   },
   {
     "title": "SDK",
-    "definition": "A Software Development Kit contains tools for developers to use when building an application, which simplify or expedite the process."
+    "definition": "A Software Development Kit contains tools for developers to use when building an application, which simplify or expedite the process. In web development, this may be Stripe's javascript functions or API's, for a purpose like handling payments. Though it could include other resourses like libraries, sample code and more. The predefined nature of the tools speeds up development as you don't have to write all the code yourself. "
   },
   {
     "title": "SEO",
-    "definition": "Search Engine Optimization encompasses a range of strategies and methods aimed at enhancing organic website traffic."
+    "definition": "Search Engine Optimization (SEO) encompasses a range of strategies and methods aimed at enhancing organic website traffic, excluding paid means. These techniques involve optimizing content elements like keywords, titles, and metadata. This optimization aims to improve a website's visibility on search engine results pages (SERPs), potentially leading to higher rankings and increased prominence in search results on platforms like Google."
   },
   {
     "title": "URL",
     "definition": "A Uniform Resource Locator is an address of a resource on the Internet, typically built up of a protocol, domain, and paths or parameters."
   },
   {
+<<<<<<< HEAD
     "title": "AJAX",
     "definition": "Asynchronous JavaScript and XML (AJAX) is a set of web development techniques used to update specific content on a webpage without requiring a full page reload. It facilitates asynchronous communication between the client (web browser) and server, enabling data to be sent, processed, and retrieved asynchronously. This enables webpages to become more dynamic and responsive by fetching or sending data in the background without interrupting the user's interaction. While XML is referenced in the name, modern implementations of AJAX commonly use other data formats such as JSON (JavaScript Object Notation) for data exchange due to its lightweight and easy-to-parse nature."
   },
   {
     "title": "IDE",
     "definition": "An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. It typically includes a code editor, debugger, build automation tools, and often features for version control, syntax highlighting, and code completion. IDEs aim to streamline the software development process by consolidating various tools and features into a single user interface, enhancing productivity and efficiency for developers."
+=======
+    "title": "XML",
+    "definition": "XML is a markup language used to store and transport data in a human and machine readable format. Like HTML, XML uses tags to define the structure of the data, focusing on describing the data rather then diplaying it. The X stands for extensible, meaning tags to not need to be predefined and one can create as they please, which is a distinguishing feature of XML."
+  },
+  {
+    "title": "TDD",
+    "definition": "Test Driven Development is a software development approach where tests are written before writing the code. This is to drive the design and development of the code through testing. First a test is written, then observed to fail, before code is written to pass the test. Once the code passes it is refactored and then the cycle repeats."
+  },
+  {
+    "title": "BDD",
+    "definition": "Behaviour Driven Development is a software development approach that encourages collaboration between developers, quality assurance and non-technical business stakeholders. It defines what a system should do based on scenarios and examples written in a natural language called Gherkin syntax. This aims to bridge the gap between the technical understanding of a developer and business goals and provide clarity. There are executible specifications contained within to ensure the system's behaviour meets the desired outcomes of all parties."
+  },
+  {
+    "title": "SVG",
+    "definition": "Scalable Vector Graphics is an image format that is vector based, meaning it can be scaled to any size without losing quality, as, rather than being based on pixels, it is written in a text based XML-like format. They are commonly used for logos, icons or illustrations and can be edited in the code, for instance to change it's background color. "
+>>>>>>> 7915b03b77e34cba9e85f05bc3f675cb40f3705b
   }
 ]
