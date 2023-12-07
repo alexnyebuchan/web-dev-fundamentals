@@ -84,28 +84,11 @@
     "definition": "A Uniform Resource Locator is an address of a resource on the Internet, typically built up of a protocol, domain, and paths or parameters."
   },
   {
-<<<<<<< HEAD
     "title": "AJAX",
     "definition": "Asynchronous JavaScript and XML (AJAX) is a set of web development techniques used to update specific content on a webpage without requiring a full page reload. It facilitates asynchronous communication between the client (web browser) and server, enabling data to be sent, processed, and retrieved asynchronously. This enables webpages to become more dynamic and responsive by fetching or sending data in the background without interrupting the user's interaction. While XML is referenced in the name, modern implementations of AJAX commonly use other data formats such as JSON (JavaScript Object Notation) for data exchange due to its lightweight and easy-to-parse nature."
   },
   {
     "title": "IDE",
     "definition": "An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. It typically includes a code editor, debugger, build automation tools, and often features for version control, syntax highlighting, and code completion. IDEs aim to streamline the software development process by consolidating various tools and features into a single user interface, enhancing productivity and efficiency for developers."
-=======
-    "title": "XML",
-    "definition": "XML is a markup language used to store and transport data in a human and machine readable format. Like HTML, XML uses tags to define the structure of the data, focusing on describing the data rather then diplaying it. The X stands for extensible, meaning tags to not need to be predefined and one can create as they please, which is a distinguishing feature of XML."
-  },
-  {
-    "title": "TDD",
-    "definition": "Test Driven Development is a software development approach where tests are written before writing the code. This is to drive the design and development of the code through testing. First a test is written, then observed to fail, before code is written to pass the test. Once the code passes it is refactored and then the cycle repeats."
-  },
-  {
-    "title": "BDD",
-    "definition": "Behaviour Driven Development is a software development approach that encourages collaboration between developers, quality assurance and non-technical business stakeholders. It defines what a system should do based on scenarios and examples written in a natural language called Gherkin syntax. This aims to bridge the gap between the technical understanding of a developer and business goals and provide clarity. There are executible specifications contained within to ensure the system's behaviour meets the desired outcomes of all parties."
-  },
-  {
-    "title": "SVG",
-    "definition": "Scalable Vector Graphics is an image format that is vector based, meaning it can be scaled to any size without losing quality, as, rather than being based on pixels, it is written in a text based XML-like format. They are commonly used for logos, icons or illustrations and can be edited in the code, for instance to change it's background color. "
->>>>>>> 7915b03b77e34cba9e85f05bc3f675cb40f3705b
   }
 ]
