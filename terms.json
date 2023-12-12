@@ -108,3 +108,4 @@
     "definition": "A Higher Order Function is a function that takes in one or more functions as arguments and returns a function as the result. This programming pattern, where functions are nested, allows for potentially more dynamic behaviour and flexibility."
   }
 ]
+
