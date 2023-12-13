@@ -8,10 +8,12 @@ interface MainProps {
   terms: Term[];
 }
 
-const Main: FC<MainProps> = () => {
+// Used JSX.Element as the return value is in JSX
+const Main: FC<MainProps> = (): JSX.Element => {
   const [randomTermIndex, setRandomTermIndex] = useState<number>(0);
   const [previousIndex, setPreviousIndex] = useState<number>(0);
 
+  // Ensure no other types are included in the Hexcodes
   const hexNumbers: string[] = [
     '0',
     '1',
@@ -35,7 +37,8 @@ const Main: FC<MainProps> = () => {
     changeTerm();
   }, []);
 
-  const changeTerm = () => {
+  // Declare that changeTerm's function type is that it takes no arguments and returns void
+  const changeTerm: () => void = () => {
     const newTermIndex: number = Math.floor(Math.random() * terms.length);
     if (previousIndex === newTermIndex) {
       changeTerm();
