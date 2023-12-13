@@ -4,12 +4,14 @@ import Footer from './Footer';
 import Icon from '../assets/icons/dice.svg';
 import { Term } from "../types/term.ts";
 
+// Imported terms define the type for the Main component
 interface MainProps {
   terms: Term[];
 }
 
 // Used JSX.Element as the return value is in JSX
 const Main: FC<MainProps> = (): JSX.Element => {
+  // Ensure state returns a number type
   const [randomTermIndex, setRandomTermIndex] = useState<number>(0);
   const [previousIndex, setPreviousIndex] = useState<number>(0);
 
@@ -51,13 +53,19 @@ const Main: FC<MainProps> = (): JSX.Element => {
   };
 
   const changeBackground = () => {
+    // Ensure hexes can only be a string
     let hex1: string = '#';
     let hex2: string = '#';
 
     for (let i = 0; i < 6; i++) {
       hex1 += hexNumbers[Math.floor(Math.random() * hexNumbers.length)];
       hex2 += hexNumbers[Math.floor(Math.random() * hexNumbers.length)];
-      document.body.style.background = `linear-gradient(45deg, ${hex1}, ${hex2})`;
+
+      // Check body is not undefined
+      const body = document.body
+      if (body){
+        body.style.background = `linear-gradient(45deg, ${hex1}, ${hex2})`;
+      }
     }
   };
 
