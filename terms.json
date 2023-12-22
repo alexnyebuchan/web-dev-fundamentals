@@ -90,5 +90,17 @@
   {
     "title": "IDE",
     "definition": "An Integrated Development Environment (IDE) is a software application that provides comprehensive facilities to computer programmers for software development. It typically includes a code editor, debugger, build automation tools, and often features for version control, syntax highlighting, and code completion. IDEs aim to streamline the software development process by consolidating various tools and features into a single user interface, enhancing productivity and efficiency for developers."
+  },
+  {
+    "title": "HOC",
+    "definition": "A Higher-Order Component is a design pattern in React, a JavaScript library for building user interfaces. It's a function that takes a component and returns an enhanced version of that component with additional functionalities. HOCs facilitate code reuse, abstraction of logic, and composition by allowing common functionalities to be applied to multiple components without code duplication. They help in separating concerns, making code cleaner by abstracting away complex logic from presentational components."
+  },
+  {
+    "title": "DRY",
+    "definition": "Don't Repeat Yourself is a principle aimed at reducing repetition and redundancy in code by encouraging developers to write reusable components, functions, or modules. The goal is to minimize duplication of logic, data, or processes within a codebase."
+  },
+  {
+    "title": "YAGNI",
+    "definition": "You Aren't Gonna Need It is a principle in software development that suggests not to implement features or functionalities until they are deemed necessary. In essence, it encourages developers to avoid adding speculative or premature features based on anticipated future needs and instead focus on the current requirements. This principle helps prevent unnecessary complexity"
   }
 ]
