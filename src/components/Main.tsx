@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import terms from '../../terms.json';
+import bs from '../../bs.json';
 import Footer from './Footer';
 import Icon from '../assets/icons/dice.svg';
 
@@ -31,8 +31,7 @@ const Main = () => {
   }, []);
 
   const changeTerm = () => {
-    const newTermIndex = Math.floor(Math.random() * terms.length);
-    console.log(previousIndex, newTermIndex);
+    const newTermIndex = Math.floor(Math.random() * bs.length);
     if (previousIndex === newTermIndex) {
       changeTerm();
     } else {
@@ -60,7 +59,7 @@ const Main = () => {
         <div className="menu-item">
           <button onClick={changeTerm}>
             <img src={Icon} alt="Icon" />
-            <p>Random Term</p>
+            <p>Random B</p>
           </button>
         </div>
       </nav>
@@ -68,8 +67,8 @@ const Main = () => {
         <div className="card-container">
           {randomTermIndex !== null && (
             <>
-              <h1>{terms[randomTermIndex].title}</h1>
-              <p>{terms[randomTermIndex].definition}</p>
+              <h1>{bs[randomTermIndex].title}</h1>
+              <p>{bs[randomTermIndex].definition}</p>
             </>
           )}
         </div>
