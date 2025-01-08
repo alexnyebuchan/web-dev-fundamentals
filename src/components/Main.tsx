@@ -59,7 +59,7 @@ const Main = () => {
         <div className="menu-item">
           <button onClick={changeTerm}>
             <img src={Icon} alt="Icon" />
-            <p>Random B</p>
+            <p>Random</p>
           </button>
         </div>
       </nav>
@@ -67,7 +67,6 @@ const Main = () => {
         <div className="card-container">
           {randomTermIndex !== null && (
             <>
-              <h1>{bs[randomTermIndex].title}</h1>
               <p>{bs[randomTermIndex].definition}</p>
             </>
           )}
